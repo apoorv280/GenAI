@@ -1,0 +1,6 @@
+conda activate venv/
+pip install -r requirements.txt
+pip freeze > requirements.txt
+cd folder_name {where your streamlit app.py is}
+streamlit run app.py { name of the file}
+ctrl+C {to break the app from running}
